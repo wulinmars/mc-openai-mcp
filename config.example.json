@@ -1,0 +1,19 @@
+{
+  "server": {
+    "port": 25565,
+    "version": "1.16.5",
+    "motd": "AI Chat MCP Server",
+    "onlineMode": false,
+    "maxPlayers": 20,
+    "viewDistance": 10,
+    "difficulty": 1,
+    "gamemode": 0,
+    "spawnProtection": 16
+  },
+  "ai": {
+    "model": "gpt-3.5-turbo",
+    "systemPrompt": "You are a helpful assistant in a Minecraft server.",
+    "maxHistory": 10,
+    "responseColor": "green"
+  }
+}
