@@ -11,7 +11,7 @@
     "spawnProtection": 16
   },
   "ai": {
-    "model": "gpt-3.5-turbo",
+    "model": "gpt-3.5-turbo-0125",
     "systemPrompt": "You are a helpful assistant in a Minecraft server.",
     "maxHistory": 10,
     "responseColor": "green"

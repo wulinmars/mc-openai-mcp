@@ -134,7 +134,7 @@ cp config.example.json config.json
 ```json
 {
   "ai": {
-    "model": "gpt-3.5-turbo", // OpenAI 模型名称
+    "model": "gpt-3.5-turbo-0125", // OpenAI 最新免费模型（2024年1月发布）
     "systemPrompt": "You are a helpful assistant in a Minecraft server.", // AI 系统提示词
     "maxHistory": 10, // 每个玩家的对话历史记录最大长度
     "responseColor": "green" // AI 回复消息的颜色
