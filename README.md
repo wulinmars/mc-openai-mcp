@@ -33,7 +33,7 @@
 2. 克隆仓库：
 
 ```bash
-git clone [repository-url]
+git clone git@github.com:wulinmars/mc-openai-mcp.git
 cd mcp-study
 ```
 
