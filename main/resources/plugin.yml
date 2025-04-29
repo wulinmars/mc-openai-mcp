@@ -1,0 +1,16 @@
+name: MCPPlugin
+version: 1.0.0
+main: com.example.mcp.MCPPlugin
+api-version: 1.19
+description: A Minecraft plugin that integrates with OpenAI's API
+author: YourName
+website: https://example.com
+commands:
+  ai:
+    description: Send a message to the AI
+    usage: /ai <message>
+    permission: mcp.ai
+permissions:
+  mcp.ai:
+    description: Allows players to use the AI chat feature
+    default: true

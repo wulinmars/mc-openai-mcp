@@ -1,21 +1,38 @@
-# Dependencies
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-package-lock.json
-yarn.lock
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
 
-# Environment variables
-.env
-.env.local
-.env.*.local
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
 
-# IDE and editor files
+# IDE
 .idea/
+*.iml
+*.iws
+*.ipr
+.settings/
+.classpath
+.project
+.factorypath
 .vscode/
-*.swp
-*.swo
+
+# OS
 .DS_Store
 Thumbs.db
 
@@ -57,3 +74,6 @@ coverage/
 
 # Yarn Integrity file
 .yarn-integrity
+
+# Paper Server
+paper-server/

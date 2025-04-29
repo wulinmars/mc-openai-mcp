@@ -1,0 +1,9 @@
+# OpenAI API Configuration
+openai:
+  api-key: "your-api-key-here" # Replace with your actual OpenAI API key
+
+# Plugin Settings
+settings:
+  max-tokens: 150
+  temperature: 0.7
+  timeout: 30 # Timeout in seconds for API requests
