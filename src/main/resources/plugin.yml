@@ -4,8 +4,8 @@ main: com.example.mcp.MCPPlugin
 api-version: "1.20"
 description: A Minecraft plugin that integrates with OpenAI
 author: YourName
+
 commands:
-  mcp:
+  ai:
     description: Chat with AI
-    usage: /<command> <prompt>
-    permission: mcp.chat
+    usage: /<command> <message>

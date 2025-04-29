@@ -40,7 +40,7 @@ public class MCPPlugin extends JavaPlugin {
         openAIHandler = new OpenAIHandler(apiKey, config);
         
         // Register command
-        getCommand("mcp").setExecutor(new MCPCommand(this));
+        getCommand("ai").setExecutor(new MCPCommand(this));
         
         getLogger().info("MCP plugin has been enabled!");
     }

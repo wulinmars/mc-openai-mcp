@@ -23,7 +23,7 @@ public class MCPCommand implements CommandExecutor {
         Player player = (Player) sender;
         
         if (args.length == 0) {
-            player.sendMessage(ChatColor.RED + "Usage: /mcp <prompt>");
+            player.sendMessage(ChatColor.RED + "Usage: /ai <prompt>");
             return true;
         }
 
